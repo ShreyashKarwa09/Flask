@@ -1,0 +1,670 @@
+{
+  "intents":[
+{
+  "tag": "greeting",
+  "patterns": [
+     "Hi",
+     "hi",
+     "How are you?",
+     "Is anyone there?",
+     "Hello",
+     "hello",
+     "Good day",
+     "What's up",
+     "how are ya",
+     "heyy",
+     "whats up",
+     "Hey there"
+  ],
+  "responses": [
+     "Hello!",
+     "Good to see you again!",
+     "Hi there, how can I help?",
+     "Hello there!",
+     "Hi, How are ya?"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "goodbye",
+  "patterns": [
+     "cya",
+     "see you",
+     "bye bye",
+     "See you later",
+     "Goodbye",
+     "I am Leaving",
+     "Bye",
+     "Have a Good day",
+     "talk to you later",
+     "ttyl",
+     "i got to go",
+     "gtg"
+  ],
+  "responses": [
+     "Sad to see you go :(",
+     "Talk to you later",
+     "Goodbye!",
+     "Come back soon"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "creator",
+  "patterns": [
+     "what is the name of your developers",
+     "what is the name of your creators",
+     "what is the name of the developers",
+     "what is the name of the creators",
+     "who created you",
+     "your developers",
+     "your creators",
+     "who are your developers",
+     "developers",
+     "you are made by",
+     "you are made by whom",
+     "who created you",
+     "who create you",
+     "creators",
+     "who made you",
+     "who designed you"
+  ],
+  "responses": [
+     "I am made by Shreyash Karwa and Ajay Kumar of MLRITM.",
+     "I was Developed by MLRITM Students to be able to responses FAQ's related to MLRITM"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "name",
+  "patterns": [
+     "name",
+     "your name",
+     "do you have a name",
+     "what are you called",
+     "what is your name",
+     "what should I call you",
+     "whats your name?",
+     "what are you",
+     "who are you",
+     "who is this",
+     "what am i chatting to",
+     "who am i taking to",
+     "what are you"
+  ],
+  "responses": [
+     "I am a Chatbot.",
+     "I am your helper"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "hours",
+  "patterns": [
+     "timing of college",
+     "what is college timing",
+     "working days",
+     "when are you guys open",
+     "what are your hours",
+     "hours of operation",
+     "when is the college open",
+     "college timing",
+     "what about college timing",
+     "is college open on saturday",
+     "tell something about college timing",
+     "what is the college  hours",
+     "when should i come to college",
+     "when should i attend college",
+     "what is my college time",
+     "college timing",
+     "timing college"
+  ],
+  "responses": [
+     "College is open 9:30 am to 4:10 pm from Monday to Saturday!"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "number",
+  "patterns": [
+     "more info",
+     "contact info",
+     "how to contact college",
+     "college telephone number",
+     "college number",
+     "What is your contact no",
+     "Contact number?",
+     "how to call you",
+     "College phone no?",
+     "how can i contact you",
+     "Can i get your phone number",
+     "how can i call you",
+     "phone number",
+     "phone no",
+     "call"
+  ],
+  "responses": [
+     "You can contact at: 040 - 29556182. For any further details visit ---> https:mlritm/ac.in"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "course",
+  "patterns": [
+     "list of courses",
+     "list of courses offered",
+     "list of courses offered in",
+     "what are the courses offered in your college?",
+     "courses?",
+     "courses offered",
+     "courses offered in (your univrsity(UNI) name)",
+     "courses you offer",
+     "branches?",
+     "courses available at UNI?",
+     "branches available at your college?",
+     "what are the courses in UNI?",
+     "what are branches in UNI?",
+     "what are courses in UNI?",
+     "branches available in UNI?",
+     "can you tell me the courses available in UNI?",
+     "can you tell me the branches available in UNI?",
+     "computer engineering?",
+     "computer",
+     "Computer engineering?",
+     "it",
+     "IT",
+     "Information Technology",
+     "AI/Ml",
+     "Mechanical engineering",
+     "Chemical engineering",
+     "Civil engineering"
+  ],
+  "responses": [
+     "MLRITM offers Information Technology, Computer Engineering, Mechanical engineering,Civil engineering and Electrical Engineering .\n It also offers courses for MBA and Pharmacy"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "fees",
+  "patterns": [
+     "information about fee",
+     "information on fee",
+     "tell me the fee",
+     "college fee",
+     "fee per semester",
+     "what is the fee of each semester",
+     "what is the fees of each year",
+     "what is fee",
+     "what is the fees",
+     "how much is the fees",
+     "fees for first year",
+     "fees",
+     "about the fees",
+     "tell me something about the fees",
+     "What is the fees of hostel",
+     "how much is the fees",
+     "hostel fees",
+     "fees for AC room",
+     "fees for non-AC room",
+     "fees for Ac room for girls",
+     "fees for non-Ac room for girls",
+     "fees for Ac room for boys",
+     "fees for non-Ac room for boys"
+  ],
+  "responses": [
+     "Various Departments have various fee struture. For Fee detail visit https://mlritm.ac.in/marri-laxman-reddy/fee-structure"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "location",
+  "patterns": [
+     "where is the college located",
+     "college is located at",
+     "where is college",
+     "where is college located",
+     "address of college",
+     "how to reach college",
+     "college location",
+     "college address",
+     "wheres the college",
+     "how can I reach college",
+     "whats is the college address",
+     "what is the address of college",
+     "address",
+     "location"
+  ],
+  "responses": [
+
+     "MLRIM is located at Dundigal,Medchal. Click here for the location https://www.google.com/maps/place/Marri+Laxman+Reddy+Institute+of+Technology+and+Management/@17.4969879,78.1813682,11z/data=!4m6!3m5!1s0x3bcb8ecff7ce096d:0xb155107b0b2be21!8m2!3d17.5989545!4d78.4175511!16s%2Fg%2F1261f1qlw?entry=ttu"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "hostel",
+  "patterns": [
+     "hostel facility",
+     "hostel servive",
+     "hostel location",
+     "hostel address",
+     "hostel facilities",
+     "hostel fees",
+     "Does college provide hostel",
+     "Is there any hostel",
+     "Where is hostel",
+     "do you have hostel",
+     "do you guys have hostel",
+     "hostel",
+     "hostel capacity",
+     "what is the hostel fee",
+     "how to get in hostel",
+     "what is the hostel address",
+     "how far is hostel from college",
+     "hostel college distance",
+     "where is the hostel",
+     "how big is the hostel",
+     "distance between college and hostel",
+     "distance between hostel and college"
+  ],
+  "responses": [
+     "MLRITM provides hostel facility and at very less cost."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "event",
+  "patterns": [
+     "events organised",
+     "list of events",
+     "list of events organised in college",
+     "list of events conducted in college",
+     "What events are conducted in college",
+     "Are there any event held at college",
+     "Events?",
+     "functions",
+     "what are the events",
+     "tell me about events",
+     "what about events"
+  ],
+  "responses": [
+     "MLRITM provides a lot of events like : \n Annual Day, Sports Day, Hackathons etc."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "document",
+  "patterns": [
+     "document to bring",
+     "documents needed for admision",
+     "documents needed at the time of admission",
+     "documents needed during admission",
+     "documents required for admision",
+     "documents required at the time of admission",
+     "documents required during admission",
+     "What document are required for admission",
+     "Which document to bring for admission",
+     "documents",
+     "what documents do i need",
+     "what documents do I need for admission",
+     "documents needed"
+  ],
+  "responses": [
+     "You need to bring Allotment Order, Inter Certificates, SSC Certificates and for more info contact : 040 - 29556182 or visit --> https://mlritm.ac.in"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "floors",
+  "patterns": [
+     "size of campus",
+     "building size",
+     "How many floors does college have",
+     "floors in college",
+     "floors in college",
+     "how tall is UNI's College of Engineering college building",
+     "floors"
+  ],
+  "responses": [
+    "MLRITM has 3 blocks for Engineering and MBA and each block has total 4 floors.\n For pharmacy there is a separate block "
+  ],
+  "context_set": ""
+},
+{
+  "tag": "syllabus",
+  "patterns": [
+     "Syllabus ",
+     "what is the Information Technology syllabus",
+     "syllabus",
+     "timetable",
+     "what is IT syllabus",
+     "syllabus",
+     "What is next lecture"
+  ],
+  "responses": [
+     "Timetable provide direct to the students OR To know about syllabus visit https://mlritm.ac.in/marri-laxman-reddy/syllabus"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "library",
+  "patterns": [
+     "is there any library",
+     "library facility",
+     "library facilities",
+     "do you have library",
+     "does the college have library facility",
+     "college library",
+     "where can i get books",
+     "book facility",
+     "Where is library",
+     "Library",
+     "Library information",
+     "Library books information",
+     "Tell me about library",
+     "how many libraries"
+  ],
+  "responses": [
+     "There is one huge and spacious library.timings are 9am to 6pm and for more visit https://www.mlritm.ac.in/marri-laxman-reddy/library"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "infrastructure",
+  "patterns": [
+     "how is college infrastructure",
+     "infrastructure",
+     "college infrastructure"
+  ],
+  "responses": [
+     "MLRITM  has an Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "canteen",
+  "patterns": [
+     "food facilities",
+     "canteen facilities",
+     "canteen facility",
+     "is there any canteen",
+     "Is there a cafetaria in college",
+     "Does college have canteen",
+     "Where is canteen",
+     "where is cafetaria",
+     "canteen",
+     "Food",
+     "Cafetaria"
+  ],
+  "responses": [
+   "MLRITM has a  good canteen with variety of food available. Campus also has various stalls for various food items."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "placement",
+  "patterns": [
+     "What is college placement",
+     "Which companies visit in college",
+     "What is average package",
+     "companies visit",
+     "package",
+     "About placement",
+     "placement",
+     "recruitment",
+     "companies"
+  ],
+  "responses": [
+     "MLRITM offers a lot of opportunities for the students. To know about placement visit https://mlritm.ac.in/marri-laxman-reddy/placement-cell"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "hod",
+  "patterns": [
+     "Who is the HOD",
+     "Where is HOD",
+     "hod",
+     "name of hod"
+  ],
+  "responses": [
+     "Different department wise hod are different.So be more clear with your department"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "sem",
+  "patterns": [
+     "exam dates",
+     "exam schedule",
+     "When is semester exam",
+     "Semester exam timetable",
+     "sem",
+     "semester",
+     "exam",
+     "when is exam",
+     "exam timetable",
+     "exam dates",
+     "when is semester"
+  ],
+  "responses": [
+     "Here is the Academic Calendar https://mlritm.ac.in/marri-laxman-reddy/academic-calender"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "admission",
+  "patterns": [
+     "what is the process of admission",
+     "what is the admission process",
+     "How to take admission in your college",
+     "What is the process for admission",
+     "admission",
+     "admission process"
+  ],
+  "responses": [
+     "Application can also be downloaded online through the Unversity's Website here https://www.mlritm.ac.in/marri-laxman-reddy/how-to-apply and can be submitted to the college administration at the college."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "scholarship",
+  "patterns": [
+     "scholarship",
+     "Is scholarship available",
+     "scholarship engineering",
+     "scholarship it",
+     "scholarship ce",
+     "scholarship mechanical",
+     "scholarship civil",
+     "scholarship chemical",
+     "scholarship for AI/ML",
+     "available scholarships",
+     "scholarship for computer engineering",
+     "scholarship for IT engineering",
+     "scholarship for mechanical engineering",
+     "scholarship for civil engineering",
+     "scholarship for chemical engineering",
+     "list of scholarship",
+     "comps scholarship",
+     "IT scholarship",
+     "mechanical scholarship",
+     "civil scholarship",
+     "chemical scholarship",
+     "automobile scholarship",
+     "first year scholarship",
+     "second year scholarship",
+     "third year scholarship",
+     "fourth year scholarship"
+  ],
+  "responses": [
+     "Many government scholarships are supported by our university. For details and updates visit https://www.mlritm.ac.in/marri-laxman-reddy/scholarships"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "facilities",
+  "patterns": [
+     "What facilities college provide",
+     "College facility",
+     "What are college facilities",
+     "facilities",
+     "facilities provided"
+  ],
+  "responses": [
+     "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "college intake",
+  "patterns": [
+     "max number of students",
+     "number of seats per branch",
+     "number of seats in each branch",
+     "maximum number of seats",
+     "maximum students intake",
+     "What is college intake",
+     "how many stundent are taken in each branch",
+     "seat allotment",
+     "seats"
+  ],
+  "responses": [
+     "For IT, Computer and extc 60-70 per branch and seat may be differ for different department."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "committee",
+  "patterns": [
+     "what are the different committe in college",
+     "different committee in college",
+     "Are there any committee in college",
+     "Give me committee details",
+     "committee",
+     "how many committee are there in college"
+  ],
+  "responses": [
+     "There are various committes in the college Like : NSS,Club 64 etc"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "vacation",
+  "patterns": [
+     "holidays",
+     "when will semester starts",
+     "when will semester end",
+     "when is the holidays",
+     "list of holidays",
+     "Holiday in these year",
+     "holiday list",
+     "about vacations",
+     "about holidays",
+     "When is vacation",
+     "When is holidays",
+     "how long will be the vacation"
+  ],
+  "responses": [
+     "Academic calender is given to you by your class-coordinators after you join your respective classes \n You can also view academic calender https://www.mlritm.ac.in/marri-laxman-reddy/academic-calender"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "sports",
+  "patterns": [
+     "sports and games",
+     "give sports details",
+     "sports infrastructure",
+     "sports facilities",
+     "information about sports",
+     "Sports activities",
+     "please provide sports and games information"
+  ],
+  "responses": [
+     "Our university encourages all-round development of students and hence provides sports facilities in the campus."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "salutaion",
+  "patterns": [
+     "okk",
+     "okie",
+     "nice work",
+     "well done",
+     "good job",
+     "thanks for the help",
+     "Thank You",
+     "its ok",
+     "Thanks",
+     "Good work",
+     "k",
+     "ok",
+     "okay"
+  ],
+  "responses": [
+     "I am glad I helped you",
+     "welcome, anything else i can assist you with?"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "task",
+  "patterns": [
+     "what can you do",
+     "what are the thing you can do",
+     "things you can do",
+     "what can u do for me",
+     "how u can help me",
+     "why i should use you"
+  ],
+  "responses": [
+     "I can responses to patternss regarding MLRITM college",
+     "You can ask me patternss regarding MLRITM college, and i will try to responses them"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "ragging",
+  "patterns": [
+     "ragging",
+     "is ragging practice active in college",
+     "does college have any antiragging facility",
+     "is there any ragging cases",
+     "is ragging done here",
+     "ragging against",
+     "antiragging facility",
+     "ragging juniors",
+     "ragging history",
+     "ragging incidents"
+  ],
+  "responses": [
+     "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+  ],
+  "context_set": ""
+},
+{
+   "tag":"mlritm",
+   "patterns" : [
+      "mlritm",
+      "can you tell me about mlritm",
+      "what is good about mlritm"
+   ],
+   "responses":[
+      "MLRITM is a Engineering college which provides various facilites for the students to complete their engineering.\n It also provides MBA and Pharmacy courses."
+   ]
+},
+{
+   "tag":"principal",
+   "patterns":[
+      "principal",
+      "principle",
+      "who is the principle of mlritm",
+      "can you tell me about the principal at mlritm"
+   ],
+   "responses":[
+      "The Principal of MLRITM is Dr.K.Venkatashwara Reddy .To know more please visit https://mlritm.ac.in"
+   ]
+}
+]
+}

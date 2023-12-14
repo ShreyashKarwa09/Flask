@@ -1,0 +1,32 @@
+body{
+    background-image: url('ai\ background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+img{
+    position: absolute;
+    height: 100px; 
+    width: 250px;
+    border-radius: 30%;
+}
+img:hover{
+    border-radius: 50%;
+}
+h1,h3{
+    color: red;
+}
+p{
+    color:beige;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+input{
+    border-style: ridge;
+    font-size: x-large;
+}
+.file_submit:hover{
+    border-style: dashed;
+}
